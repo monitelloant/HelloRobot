@@ -15,7 +15,12 @@ def eyes():
     led_on(LED_L)
     led_on(LED_R)
 
+def eyesoff():
+    led_off(LED_L)
+    led_off(LED_R)
+
 shimmy()
 twirl()
 eyes()
+eyesoff()
 stop()
