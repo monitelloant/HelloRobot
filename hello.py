@@ -11,9 +11,11 @@ def shimmy():
 def twirl():
     right_rot()
     time.sleep(2)
+def eyes():
+    led_on(LED_L)
+    led_on(LED_R)
 
 shimmy()
 twirl()
-shimmy()
-twirl()
+eyes()
 stop()
